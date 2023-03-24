@@ -6,8 +6,7 @@ public class Fibonacci {
 	
 	List<Integer> listaFibonacci = new ArrayList<>();
 	
-	public int serieFibonacci() {
-		
+	public List serieFibonacci() {
 		
 		int fibo1 = 0;
 		listaFibonacci.add(fibo1);
@@ -22,9 +21,8 @@ public class Fibonacci {
 			fibo2 = fibo3;
 		}
 
-		System.out.println(listaFibonacci);
 
-		return fibo3;
+		return(listaFibonacci);
 	}
 	
 
